@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="../../static/css/cn/style.css"/>
+</head>
+<body>
+	<div id="top">
+		<div class="lan">
+			<span>
+				<a href="http://www.cn-rpst.com/cn/index.asp" class="cn_tag"></a>
+				<a href="http://www.cn-rpst.com/index.asp" class="en_tag"></a>
+			</span>
+		</div>
+	</div>
+	<div id="head">
+		<div id="nav">
+	    	<ul>
+	        	<li class="nav_lishw"><div class="v"><a href="http://www.cn-rpst.com/cn/index.asp" class="sele"><span class="l"></span>首　页</a></div></li>
+	            <li class=""><div class="v"><a href="http://www.cn-rpst.com/cn/about.asp"><span class="l"></span>关于我们</a></div></li>
+	            <li class=""><div class="v"><a href="http://www.cn-rpst.com/cn/products.asp"><span class="l"></span>产品展示</a></div></li>
+	            <li class=""><div class="v"><a href="http://www.cn-rpst.com/cn/news.asp"><span class="l"></span>公司新闻</a></div></li>
+	            <li class=""><div class="v"><a href="http://www.cn-rpst.com/cn/inquiry.asp"><span class="l"></span>在线定单</a></div></li>
+	            <li class=""><div class="v"><a href="http://www.cn-rpst.com/cn/contact.asp"><span class="l"></span>联系我们</a></div></li>
+	        </ul>
+	    </div>
+	    <script type="text/javascript">
+			var site_url = window.location.href.toLowerCase();	
+			switch (true) {		
+				default :
+					$("#nav li").attr("class","");
+					$("#nav li").eq(0).attr("class","nav_lishw");
+					$(".nav_lishw .v a").attr("class","sele");
+					$(".nav_lishw .kind_menu").show();
+			} 
+			$("#nav li").hover(
+				function(){
+					clearTimeout(setTimeout("0")-1);
+					$("#nav .kind_menu").hide(); 
+					$("#nav li .v .sele").attr("class","shutAhover");
+					$(this).attr("id","nav_hover")
+					$("#nav_hover .v a").attr("class","sele");
+					$("#nav_hover .kind_menu").show(); 
+				},
+				function(){
+					
+					if($(this).attr("class") != "nav_lishw"){
+						$("#nav_hover .v .sele").attr("class","");
+						$("#nav_hover .kind_menu").hide(); 
+					}
+					$(this).attr("id","")
+					$("#nav li .v .shutAhover").attr("class","sele");
+					setTimeout(function(){
+						$(".nav_lishw .kind_menu").show();
+						$(".nav_lishw .v a").attr("class","sele");
+					},50); 
+				}
+			);
+			
+		</script>
+	</div>
+</body>
+</html>
