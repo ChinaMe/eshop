@@ -1,0 +1,206 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin: 0; padding: 0; outline: 0; }
+
+body { margin:0 auto; font:12px "微软雅黑", Helvetica, sans-serif;; line-height:1.5; color:#666666;}
+div{ border:0px; margin:0px; padding:0px} 
+ul,dl,dd,h1,h2,h3,h4,h5,h6,form,p,tr,td{ padding:0; margin:0;}
+table{border-collapse:collapse;border-spacing:0;border:0;}
+ul li { list-style:none;}
+img { border:0px;}
+a {text-decoration:none; color: #666666; outline:none}
+a:hover {text-decoration:none;}
+.f_l{float:left}
+.f_r{float:right}
+.clear{ display: block; height: 0; font-size: 0; line-height: 0; text-indent: -4000px; clear: both; }
+
+
+#top{ background:url(../images/top.jpg) repeat-x; width:100%; height:59px;}
+.lan{ width:990px; height:59px; margin:0px auto;}
+.lan span{ display:block; width:180px; height:40px; float:right; background:url(../images/lan.jpg) no-repeat left center;}
+.cn_tag{ background:url(../images/cn.jpg) no-repeat; width:30px; height:20px; display:block; float:left; margin-left:92px; margin-top:10px;}
+.en_tag{ background:url(../images/en.jpg) no-repeat; width:31px; height:20px; display:block; float:left; margin-left:15px; margin-top:10px;}
+
+#head{ width:990px; background:url(../images/logo.jpg) no-repeat left center; height:83px; margin:0px auto;}
+#nav{ height:31px; position:relative; width:660px; margin:0 auto; margin-left:290px; padding-top:20px}
+#nav ul li{ float:left; }
+#nav li .v a{ height:31px; line-height:31px;color:#1e1e1e;font-size:14px; padding-right:20px; display:block;}
+#nav li .v .l{ float:left; display:block; width:20px; height:31px; }
+#nav li .v a:hover,#nav li .v .sele{background:url(../images/nav_hover.jpg) no-repeat right center; color:#ffffff; line-height:31px; }
+#nav li .v a:hover .l{background:url(../images/nav_hover.jpg) no-repeat left center;}
+#nav li .v .sele .l{background:url(../images/nav_hover.jpg) no-repeat left center;}
+#nav .kind_menu { height:25px;line-height:25px;vertical-align:middle; position:absolute; top:50px; left:80px; width:400px; text-align:left; display:none; color:#3d3f42;}
+#nav .kind_menu a {color:#3d3f42;  background:url(../images/nav_arrow.jpg) no-repeat left center; padding-left:15px;}
+#nav .kind_menu a:hover { text-decoration:underline}
+#nav .kind_menu span { font-size:10px;  color:#cecece; line-height:30px; float:left }
+	
+
+#banner{ width:990px; height:331px; margin:0px auto; clear:both; margin-bottom:18px}
+#focus { width: 990px; height: 331px; clear: both; overflow: hidden; position: relative; float: left; }
+    #focus ul { width: 990px; height: 331px; float: left; position: absolute; clear: both; padding: 0px; margin: 0px; }
+        #focus ul li { float: left; width: 990px; height: 331px; overflow: hidden; position: relative; padding: 0px; margin: 0px; }
+    #focus .preNext { width: 495px; height: 331px; position: absolute; top: 0px; cursor: pointer; }
+    #focus .pre { left: 0; background: url(../images/sprite.png) no-repeat left center; }
+    #focus .next { right: 0; background: url(../images/sprite1.png) no-repeat right center; }
+
+#index_main{ width:990px; height:auto; overflow:hidden; margin:0px auto;}
+.cate{ width:290px; height:180px; overflow:hidden; background:url(../images/cate_tit.jpg) no-repeat left top; padding-top:50px;}
+.cate ul li{ display:block; padding-left:13px; line-height:35px;}
+.cate ul li a{ background: url(../images/cate_li01.jpg) no-repeat left center; display:block; font-size:14px; font-weight:bold; padding-left:19px;}
+.cate ul li a:hover{ background:url(../images/cate_li.jpg) no-repeat left center; color:#3067be }
+.blue_more{ color:#386faf; font-weight:bold; float:right; line-height:40px; padding-right:25px;}
+
+.about{ background:url(../images/line.jpg) no-repeat left center; width:665px; height:230px; padding-left:30px;}
+.about_txt{ background:url(../images/about_tit.jpg) no-repeat left top; padding-top:50px; padding-right:35px; line-height:30px}
+.about_txt p{ padding-bottom:3px}
+.about .blue_more{ padding-right:0}
+
+.net{ width:300px; height:230px; background:url(../images/line.jpg) no-repeat left center; padding-left:3px}
+
+.contact{width:290px; height:auto; overflow:hidden; background:url(../images/contact.jpg) no-repeat left top; padding-top:70px; margin-top:40px}
+.contact table{}
+.contact table tr td{ height:34px;font-weight:bold; line-height:27px;}
+.contact table tr td a:hover{ text-decoration:underline}
+
+.product{ width:650px; height:auto; overflow:hidden; margin-top:45px}
+
+#footer{ width:100%; margin-top:50px; background:url(../images/footer_bg.jpg) repeat-x top #f0f0f0;}
+.bottom{ width:990px; height:auto; overflow:hidden; margin:0px auto;}
+.bottom_nav{ width:450px; height:auto; overflow:hidden; margin:0px auto}
+.bottom_nav li{ float:left; color:#fff; text-align:center; margin:0px 4px; line-height:29px;}
+.bottom_nav li a{ color:#fff;}
+.bottom span{ display:block; text-align:center; line-height:22px; padding-top:15px; padding-bottom:20px}
+
+
+/*内页*/
+#line{ width:100%; height:35px; border-top:1px solid #d1d1d1}
+#nei_main{ width:990px; height:auto; overflow:hidden; margin:0px auto;}
+.left_main{ width:230px; height:auto; overflow:hidden;}
+.right_main{ width:720px; height:auto; overflow:hidden; position:relative}
+/*start of 左边导航*/
+div.sdmenu {width: 230px; height:auto; overflow:hidden; background:url(../images/cate_top.jpg) no-repeat center top; padding-top:158px;}
+div.sdmenu div {
+	background: url(../images/cate_down.jpg) no-repeat;
+	overflow: hidden;
+}
+div.sdmenu div.collapsed {
+	height: 44px;
+}
+div.sdmenu div span.leiFir {
+	display: block;
+	height:44px;
+	line-height:44px;
+	font-size:14px;
+	padding-left:21px;
+	font-weight: bold;
+	color: white;
+	background:url(../images/cate_up.jpg) no-repeat;
+	cursor: default;
+}
+div.sdmenu div span.leiFir a{ color:#fff;}
+div.sdmenu div.collapsed span {
+	background:url(../images/cate_down.jpg) no-repeat;
+}
+div.sdmenu div a.leiSec {
+	height:34px;
+	line-height:34px;
+	padding-left:21px;
+	font-weight:bold;
+	background:url(../images/sub_cate.jpg) no-repeat;
+	display: block;
+	color: #a4a6ad;
+}
+/*div.sdmenu div a.current {
+	height:34px;
+	line-height:34px;
+	padding-left:21px;
+	font-weight:bold;
+	background:url(../images/sub_cate.jpg) no-repeat;
+	display: block;
+	color: #386FAF;
+}*/
+/*div.sdmenu div span.leiFir a{
+	display: block;
+	height:44px;
+	line-height:44px;
+	font-size:14px;
+	font-weight: bold;
+	color: white;
+	cursor: default;
+}*/
+/*div.sdmenu div span.noSec a.current{
+	display: block;
+	height:44px;
+	line-height:44px;
+	font-size:14px;
+	font-weight: bold;
+	color: white;
+	cursor: default;
+}*/
+div.sdmenu div a.leiSec:hover {
+	color: #386FAF;
+	text-decoration: none;
+}
+/*end of 左边导航*/
+.nei_banner{ width:720px; height:200px; border-bottom:2px solid #666666;}
+.loc{ background:url(../images/ico_home.gif) no-repeat 5px center; padding-left:25px;line-height:30px; height:30px; position:absolute; top:170px;}
+.content{ width:720px; height:auto; overflow:hidden; padding-top:35px;}
+.page{ text-align:center; padding-top:25px;}
+
+/*equipment*/
+.equipUL li{ float:left; background:url(../images/equip_bg.jpg) no-repeat; width:240px; height:auto; overflow:hidden;}
+.equipUL li img{ width:200px; height:130px; margin-left:12px; margin-top:12px;}
+.equipUL li span{ display:block; text-align:center; line-height:40px; color:#386FAF; padding-top:15px; padding-bottom:15px}
+
+/*about*/
+.about_con{}
+.about_con p{line-height:25px; padding-left:5px; text-align:justify}
+.about_con p img{ float:left; margin-right:30px;}
+
+/*news*/
+.news_list{ padding-left:10px; padding-right:10px; clear:both;}
+.news_list dt{ border-bottom:1px solid #e3e3e3; height:35px;}
+.news_list dt a{ font-size:14px; font-weight:bold; line-height:35px; float:left;}
+.news_list dt a:hover{ color:#386FAF}
+.news_list dt span{ float:right; color:#999999; line-height:20px; padding-top:10px}
+.news_list dd{ float:left; line-height:25px; clear:both; padding-top:5px; padding-bottom:15px}
+
+/*news_detail*/
+.newsTit{ font-size:16px; text-align:center; display:block; line-height:30px; font-weight:bold; color:#474747}
+.news_mes{ background:url(../images/news_mes.gif) repeat-x; height:37px; width:720px; border-top:1px solid #A9ABAE; border-bottom:0px solid #A9ABAE; margin-top:10px; line-height:35px; text-align:center}
+.news_mes strong{ padding-right:20px;}
+.from{ float:left; margin-left:25px;}
+.hit{ float:right; margin-right:25px;}
+.news_detail{ padding-top:25px; padding-right:20px; padding-left:20px; line-height:20px;}
+.page01{ text-align:left; line-height:25px; padding-top:10px; padding-left:20px; border-top:1px solid #e3e3e3; margin-top:15px; color:#386FAF; font-weight:bold}
+.page01 a{ font-weight:normal}
+.page01 a:hover{ text-decoration:underline;}
+
+/*contact*/
+.contact_con table{ margin-left:5px; margin-top:10px; margin-bottom:30px; border-top:1px solid #e3e3e3; border-bottom:1px solid #e3e3e3;}
+.contact_con table tr td{ line-height:30px; border-collapse:collapse;}
+.contact_con table tr td a:hover{ text-decoration:underline}
+.contactTit{ font-size:16px; font-weight:bold; line-height:40px; display:block; padding-left:5px;}
+
+/*inquiry*/
+.blue{ color:#386FAF}
+.inquiry_con table{ border-top:2px solid #A9ABAE}
+.inquiry_con table tr td{ border-collapse:collapse; padding:10px 0px 10px 15px; border:1px solid #DEDEDE}
+.inquiry_con table tr td .ipt{border: 1px solid #DEDEDE; height:23px; line-height:23px; padding: 0 10px;}
+.inquiry_con table tr td .txtArea{border: 1px solid #DEDEDE; overflow-x: hidden; overflow-y: scroll; padding: 10px; text-align: left;}
+.inquiry_con table tr td .bnt_blue{background:#3C77C0; border: 1px solid #3971B6; color: #FFFFFF; display: inline-block; font-size: 14px; font-weight: bold; height: 29px; line-height: 29px; padding: 0 29px; margin:0px 20px;}
+.inquiry_con .contactTit{ border-bottom:1px solid #e3e3e3; margin-bottom:30px;}
+
+/*products*/
+.proUL li{ float:left; width:220px; height:auto; overflow:hidden;  border:1px solid #DEDEDE; margin:0px 9px 30px;}
+.proUL li a img{ font-size:0px; display:block}
+.proUL li a.pro_no{ display:block; line-height:35px; background:#EFF1F2; color:#474747; text-align:center; border-top:1px solid #DEDEDE}
+.proUL li a.pro_no:hover{ color:#386FAF}
+
+/*pro_detail*/
+.proPic{ display:block; text-align:center;}
+.proName{ width:720px; height:35px; border-bottom:2px solid #A9ABAE; margin-top:15px;}
+.proName span{ color:#ffffff; font-size:16px; font-weight:bold; background-color:#386FAF; float:left; line-height:35px; padding-left:15px; padding-right:15px;}
+.pro_detail{ padding-top:20px; line-height:25px; padding-left:10px;}
+table.pro_spec tr td{ border-collapse:collapse; border-right:1px solid #fff;}
