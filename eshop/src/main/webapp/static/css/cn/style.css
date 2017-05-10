@@ -144,7 +144,7 @@ div.sdmenu div a.leiSec:hover {
 }
 /*end of 左边导航*/
 .nei_banner{ width:720px; height:200px; border-bottom:2px solid #666666;}
-.loc{ background:url(../images/ico_home.gif) no-repeat 5px center; padding-left:25px;line-height:30px; height:30px; position:absolute; top:170px;}
+.loc{ background:url(../../images/ico_home.gif) no-repeat 5px center; padding-left:25px;line-height:30px; height:30px; position:absolute; top:170px;}
 .content{ width:720px; height:auto; overflow:hidden; padding-top:35px;}
 .page{ text-align:center; padding-top:25px;}
 
