@@ -56,7 +56,16 @@ $(function(){
 	} else if(page == "contact") {
 		setMenuCss();
 		$("#right").attr("src", "contact/contact.html");
-	} 
+	} else if(page == "productdetail") {
+		var param = window.location.search.substr(1);
+		setMenuCss();
+		if(param != null && param != "") {
+			$("#right").attr("src", "productdetail/detail.html?"+param);
+			return;
+		}
+		$("#right").attr("src", "productdetail/detail.html");
+		
+	}
 	
 	function setMenuCss() {
 		$("#nav li a").each(function() {

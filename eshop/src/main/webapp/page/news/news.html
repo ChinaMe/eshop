@@ -7,6 +7,19 @@
 <meta name="Keywords" content="光伏太阳能发电系统,风力发电系统,LED灯产品"/>
 <meta name="description" content="香港华泽有限公司是一家专业的贸易公司,主要涉及生产和出口的工业洗衣机零配件、原材料和农业用品。其业务范围还包括可再生能源产品：如光伏太阳能发电系统、风力发电系统和LED灯产品等。"/>
 <link rel="stylesheet" type="text/css" href="../../static/css/style.css"/>
+<script type="text/javascript" src="../../static/js/jquery-1.4.1.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	$(".news_list").each(function(){
+		$(this).click(function(){
+			var data = $(this).attr("data");
+			window.open("../newsdetail/detail.html?news="+data, "_self");
+		});
+	});
+	
+});
+	
+</script>
 </head>
 
 <body>
@@ -15,22 +28,22 @@
     <div class="content news_con">
      	
 		<dl class="news_list">
-         	<dt><a href="http://www.cn-rpst.com/cn/news_detail.asp?ID=366">人民币对美元中间价14日报6.2035 上涨37基点</a><span>2013-05-14</span></dt>
+         	<dt><a href="javascript:;" data="news001">人民币对美元中间价14日报6.2035 上涨37基点</a><span>2013-05-14</span></dt>
              <dd>中国网5月14日讯 自中国外汇交易中心的最新数据显示，5月14日人民币对美元汇率中间价报6.2035，较前一交易日继续上...</dd>
          </dl>
          
 		<dl class="news_list">
-         	<dt><a href="http://www.cn-rpst.com/cn/news_detail.asp?ID=365">从黄金暴跌 透视大宗商品市场“乱象”</a><span>2013-05-14</span></dt>
+         	<dt><a href="javascript:;">从黄金暴跌 透视大宗商品市场“乱象”</a><span>2013-05-14</span></dt>
              <dd>进入2013年，大宗商品市场呈现走势震荡加剧、涨跌节奏切换快的现象。此外，自身基本面、宏观经济环境、计价货币美元的不断变...</dd>
          </dl>
          
 		<dl class="news_list">
-         	<dt><a href="http://www.cn-rpst.com/cn/news_detail.asp?ID=364">美元兑日元盘中突破102</a><span>2013-05-14</span></dt>
+         	<dt><a href="javascript:;">美元兑日元盘中突破102</a><span>2013-05-14</span></dt>
              <dd>周一亚太市场交易时段，美元兑日元高开高走，盘中一度上破102.00大关，并创下逾四年半新高102.14。虽然日元下跌已经...</dd>
          </dl>
          
          <div class="clear"></div>
-         <div class="page"><table><form action="http://www.cn-rpst.com/cn/news.asp?" method="post"></form><tbody><tr><td><span style="COLOR: #c0c0c0;">[最前页]&nbsp;[上一页]&nbsp;[下一页]&nbsp;[最后页]</span>&nbsp;当前显示[<span style="color:FF0000;">1</span>/1]&nbsp;选择页码<select name="Page" onchange="this.form.submit()" style="padding: 0px;margin-top: 0px;"><option value="1" selected="">1</option></select></td></tr></tbody></table></div>
+         <div class="page"><table><form action="javascript:;" method="post"></form><tbody><tr><td><span style="COLOR: #c0c0c0;">[最前页]&nbsp;[上一页]&nbsp;[下一页]&nbsp;[最后页]</span>&nbsp;当前显示[<span style="color:FF0000;">1</span>/1]&nbsp;选择页码<select name="Page" onchange="this.form.submit()" style="padding: 0px;margin-top: 0px;"><option value="1" selected="">1</option></select></td></tr></tbody></table></div>
 </div>
 </body>
 </html>

@@ -45,11 +45,11 @@ a:hover {text-decoration:none;}
     #focus .next { right: 0; background: url(../images/sprite1.png) no-repeat right center; }
 
 #index_main{ width:990px; height:auto; overflow:hidden; margin:0px auto;}
-.cate{ width:290px; height:180px; overflow:hidden; background:url(../images/cate_tit.jpg) no-repeat left top; padding-top:50px;}
+.cate{ width:290px; height:200px; overflow:hidden; background:url(../images/cate_tit.jpg) no-repeat left top; padding-top:50px;}
 .cate ul li{ display:block; padding-left:13px; line-height:35px;}
 .cate ul li a{ background: url(../images/cate_li01.jpg) no-repeat left center; display:block; font-size:14px; font-weight:bold; padding-left:19px;}
 .cate ul li a:hover{ background:url(../images/cate_li.jpg) no-repeat left center; color:#3067be }
-.blue_more{ color:#386faf; font-weight:bold; float:right; line-height:40px; padding-right:25px;}
+.blue_more{ color:#386faf; font-weight:bold; float:right; line-height:35px; padding-right:25px;}
 
 .about{ background:url(../images/line.jpg) no-repeat left center; width:665px; height:230px; padding-left:30px;}
 .about_txt{ background:url(../images/about_tit.jpg) no-repeat left top; padding-top:50px; padding-right:35px; line-height:30px}
